@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/planet', (req, res) => {
-  res.send(`Hello ${process.env[`${env}_PLANET`]}`)
+  res.send(`Hello ${process.env[`${env}_PLANET`]}!!`)
 })
 
 app.listen(port, () => {
