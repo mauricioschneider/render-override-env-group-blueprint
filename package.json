@@ -1,0 +1,20 @@
+{
+  "name": "render-override-env-group-blueprint",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/mauricioschneider/render-override-env-group-blueprint#readme",
+  "bugs": {
+    "url": "https://github.com/mauricioschneider/render-override-env-group-blueprint/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauricioschneider/render-override-env-group-blueprint.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
