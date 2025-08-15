@@ -8,9 +8,8 @@ services:
     envVars:
       - key: ENVIRONMENT
         value: PROD
-        previewValue: PREVIEW
       - fromGroup: production
-      - fromGroup: preview
+      - previewGroup: preview
       
 previews:
   generation: automatic
