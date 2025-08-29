@@ -6,11 +6,11 @@ services:
     buildCommand: npm install
     startCommand: node index.js
     envVars:
-      - key: ENVIRONMENT
-        value: PROD
-        previewValue: PREVIEW
-      - fromGroup: production
-      - fromGroup: preview
+      - key: DATABASE
+        sync: false
+      - key: STRIPE_SECRET_KEY
+        sync: false
+      - fromGroup: API
       
 previews:
   generation: automatic
